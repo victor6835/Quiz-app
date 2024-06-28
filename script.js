@@ -79,30 +79,30 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'What is 2+2?',
+        question: '莊程富先生會哪些語言?',
         answers: [
-            { text: '4', correct: true },
-            { text: '5', correct: false },
-            { text: '6', correct: false },
-            { text: '7', correct: false }
+            { text: '日文', correct: true },
+            { text: '英文', correct: true },
+            { text: '中文', correct: true },
+            { text: '德文', correct: false }
         ]
     },
     {
-        question: 'What is 3+3?',
+        question: '莊程富先生參加過哪個工程師培訓課?',
         answers: [
-            { text: '4', correct: false },
-            { text: '5', correct: false },
-            { text: '6', correct: true },
-            { text: '7', correct: false }
+            { text: 'MIS工程師', correct: false },
+            { text: '軟體工程師', correct: false },
+            { text: '建築工程師', correct: false },
+            { text: '前端工程師', correct: true }
         ]
     },
     {
-        question: 'What is 4+4?',
+        question: '莊程富先生的夢想是什麼？',
         answers: [
-            { text: '4', correct: false },
-            { text: '5', correct: false },
-            { text: '6', correct: false },
-            { text: '8', correct: true }
+            { text: '成為一個負責任的男人', correct: true },
+            { text: '成為一個兼具語文和資訊科技實力的社會菁英', correct: true },
+            { text: '成為一個善用AI加速工作效率的人', correct: true },
+            { text: '成為一個具備溝通和技術能力的科技人才', correct: true }
         ]
     }
 ]
